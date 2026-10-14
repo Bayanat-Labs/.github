@@ -1,0 +1,21 @@
+name: Question
+description: Ask how to use a Bayanat Labs tool, benchmark or kit.
+title: "[Question]: "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please check the repository README first. Leave out personal data, client data and API keys.
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: What you are trying to do and where you got stuck.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      placeholder: "0.1.0 or a1b2c3d"

@@ -1,0 +1,54 @@
+name: Bug report
+description: Something in a Bayanat Labs tool, harness or kit does not work as documented.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this. Please leave out personal data, client data and API keys.
+        For security problems, follow the [security policy](https://github.com/Bayanat-Labs/.github/blob/main/SECURITY.md) instead of opening an issue.
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      description: The release you installed (for example from `pip show`) or the git commit you ran.
+      placeholder: "0.1.0 or a1b2c3d"
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you ran, what you expected, and what you got instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: The smallest command or input that shows the problem. Synthetic Arabic examples are ideal.
+      placeholder: |
+        1. Install ...
+        2. Run ...
+        3. See ...
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Error output
+      description: Paste the full error or traceback. It will be shown as code.
+      render: text
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: "Python 3.12, Ubuntu 24.04"
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you submit
+      options:
+        - label: I removed personal data, client data and API keys from everything above.
+          required: true

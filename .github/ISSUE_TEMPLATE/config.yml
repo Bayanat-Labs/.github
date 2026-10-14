@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Run an Arabic data pilot
+    url: https://www.bayanatlabs.com/pilot
+    about: For Arabic data built, annotated or evaluated for your own product. A fixed-scope pilot with gold-standard QA and a quality report, usually within two weeks.
+  - name: Talk to Bayanat Labs
+    url: https://www.bayanatlabs.com/company#contact
+    about: Partnerships, dataset licensing and anything that is not a bug or a request. You can also email hello@bayanatlabs.com.
+  - name: Join the Bayanat Labs Talent Network
+    url: https://www.bayanatlabs.com/talent-network
+    about: Remote, flexible, paid-per-task Arabic data work. Free to apply.

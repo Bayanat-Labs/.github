@@ -1,0 +1,63 @@
+name: Dataset, tool or benchmark request
+description: Suggest an open Arabic dataset, tool or benchmark for Bayanat Labs to build or improve.
+title: "[Request]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tell us what would help your Arabic AI work. We review requests when we plan what to build next. A request is not a commitment to build something or to a date.
+        If you need data built for your own product, a [pilot](https://www.bayanatlabs.com/pilot) is the faster route.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Request type
+      options:
+        - Open dataset
+        - Tool or library
+        - Benchmark or evaluation
+        - Improvement to an existing repository
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem it would solve
+      description: What you are trying to do today, and what is missing or hard.
+    validations:
+      required: true
+  - type: dropdown
+    id: modality
+    attributes:
+      label: Data type
+      multiple: true
+      options:
+        - Text
+        - Speech or audio
+        - Documents, images or OCR
+        - Video
+        - Agents or tool use
+        - Other
+  - type: input
+    id: varieties
+    attributes:
+      label: Arabic varieties or dialects
+      description: For example MSA, Saudi, Gulf, Egyptian, Levantine, Maghrebi, or mixed Arabic and English.
+  - type: textarea
+    id: prior-work
+    attributes:
+      label: Known sources or prior work
+      description: Links to datasets, papers, tools or licenses that we should look at.
+  - type: textarea
+    id: use
+    attributes:
+      label: How you would use it
+      description: Training, evaluation, research, teaching, a product feature, or something else.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you submit
+      options:
+        - label: I did not include personal data, client data or API keys.
+          required: true
