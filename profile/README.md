@@ -30,13 +30,13 @@ Large and third-party datasets do not live in git. Small fixtures we wrote ourse
 
 ## Featured work
 
-- **[LabelBench](https://www.bayanatlabs.com/research/labelbench)**<br>
+- **[LabelBench](https://www.bayanatlabs.com/research/labelbench)** · [Repository](https://github.com/Bayanat-Labs/labelbench)<br>
   A reproducible audit of automated Arabic data labeling. On the fixed held-out manifest, a local language model reaches 78% exact-match accuracy on binary Arabic toxicity. On the full seven-label taxonomy it falls to 25.3%, and on five dialect regions it reaches 22.4%, where chance is 20%. Read the [paper (PDF)](https://www.bayanatlabs.com/research/labelbench-paper-v0.1.pdf).
 
 - **[Arabic Retrieval Starter Kit](https://www.bayanatlabs.com/research/arabic-retrieval-starter-kit)** · [Repository](https://github.com/Bayanat-Labs/arabic-retrieval-starter-kit)<br>
   A small, fully synthetic Arabic and English RAG evaluation kit. Gulf and MSA questions, graded relevance judgments, outdated-policy hard negatives and unanswerable questions. Free under CC BY 4.0.
 
-- **[Arabic Agent Reliability Lab](https://www.bayanatlabs.com/research/arabic-agent-reliability)**<br>
+- **[Arabic Agent Reliability Lab](https://www.bayanatlabs.com/research/arabic-agent-reliability)** · [Repository](https://github.com/Bayanat-Labs/arabic-agent-reliability-lab)<br>
   A methods beta for state-based evaluation of Arabic AI agents, with evidence receipts. A fluent answer is not a completed transaction.
 
 ## Work with us
