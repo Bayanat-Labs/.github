@@ -14,13 +14,15 @@
 
 **Arabic AI shouldn't sound translated.**
 
-[Website](https://www.bayanatlabs.com) · [Run a pilot](https://www.bayanatlabs.com/pilot) · [LinkedIn](https://www.linkedin.com/company/bayanat-labs/) · [hello@bayanatlabs.com](mailto:hello@bayanatlabs.com)
+[Website](https://www.bayanatlabs.com) · [Run a pilot](https://www.bayanatlabs.com/pilot) · [Hugging Face](https://huggingface.co/Bayanat-Labs) · [LinkedIn](https://www.linkedin.com/company/bayanat-labs/) · [hello@bayanatlabs.com](mailto:hello@bayanatlabs.com)
 
 </div>
 
 ---
 
 Bayanat Labs is a leading Arabic data company for AI, based in Riyadh. We work only on data, from sourcing and annotation to alignment (RLHF and human feedback) and evaluation. We are model-agnostic and never compete with our clients' models. Our data covers 25+ Arabic varieties and dialects and is produced by vetted native speakers, linguists and licensed domain professionals.
+
+Bayanat Labs (bayanatlabs.com) is not affiliated with bayanat.ae (the UAE open-data portal), the former Bayanat AI (now Space42), or the ARBML bayanat library.
 
 ## What you will find here
 
